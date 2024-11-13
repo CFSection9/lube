@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <title>Software Company Website</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">LUBE<span>润威</span></a>
+
+      <nav class="navbar">
+        <a href="#home">主页</a>
+        <a href="#about">公司介绍</a>
+        <a href="#services">产品介绍</a>
+        <a href="#projects">成功案例</a>
+        <a href="#pricing">价格</a>
+        <a href="#contact">联系我们</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="info-btn" class="fas fa-info-circle"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input
+          type="search"
+          name=""
+          placeholder="search here..."
+          id="search-box"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+          <a href="#">forgot password?</a>
+        </div>
+        <input type="submit" value="login now" class="btn" />
+        <p>don't have an account <a href="#">create one!</a></p>
+      </form>
+    </header>
+
+    <div class="contact-info">
+      <div id="close-contact-info" class="fas fa-times"></div>
+
+      <div class="info">
+        <i class="fas fa-phone"></i>
+        <h3>联系电话</h3>
+        <p>021-6979-3052</p>
+      </div>
+
+      <div class="info">
+        <i class="fas fa-envelope"></i>
+        <h3>联系邮箱</h3>
+        <p>wangcx@lube-v.com.cn</p>
+      </div>
+
+      <div class="info">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>公司地址</h3>
+        <p>上海市青浦区诸光路1588弄L2 B栋4楼410单元</p>
+      </div>
+
+      <div class="share">
+       <!--
+        <a href="https://www.instagram.com/sherwinvishesh/" class="fab fa-instagram"></a>>
+        <a href="https://www.linkedin.com/in/sherwinvishesh" class="fab fa-linkedin"></a>
+        -->
+      </div>
+    </div>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/BG1.png) no-repeat"
+          >
+            <div class="content">
+              <h3>高端航空润滑油脂</h3>
+              <p>
+                涡轮发动机润滑油，航空液压油，特殊应用润滑油和脂
+              </p>
+              <a href="#about" class="btn">了解详情</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/BG2.png) no-repeat"
+          >
+            <div class="content">
+              <h3>高端工业润滑油脂</h3>
+              <p>
+                钢帘线拉拔液，冷冻压缩机油，风电齿轮油，防火型液压油
+              </p>
+              <a href="#about" class="btn">了解详情</a>
+            </div>
+          </section>
+          <section
+            class="swiper-slide slide"
+            style="background: url(images/BG2.png) no-repeat"
+          >
+            <div class="content">
+              <h3>其他精细化工产品和新能源材料</h3>
+              <p>
+                过充保护剂，浸没式冷却液
+              </p>
+              <a href="#about" class="btn">了解详情</a>
+            </div>
+          </section>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading">公司介绍</h1>
+
+      <div class="row">
+        <div class="video">
+          <video src="https://www.youtube.com/watch?v=QyhwSYhX09s" loop muted autoplay></video>
+        </div>
+
+        <div class="content">
+          <h3>为高精尖“中国制造”助力!</h3>
+          <p>
+            润威新材料科技（上海）有限公司源起于2018年公司创始人在美国纽约大都会地区设立的LUBE-V公司，之后在中国进一步夯实研发和制造能力，并壮大和发展。目前公司总部设立在中国上海，拥有全自研的高尖端润滑材料开发和实验检测分析平台，针对航空航天、大数据、新能源、高端工业等尖端领域提供各类产品，包括涡轮发动机油、航空液压油、齿轮油、高端工业润滑油、浸没式冷却液、新能源汽车过充保护剂等特种润滑材料和化工新材料。
+          </p>
+          <a href="#services" class="btn">了解更多</a>
+        </div>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <h3>20年</h3>
+          <p>专业领域的深耕</p>
+        </div>
+
+        <div class="box">
+          <h3>1500+</h3>
+          <p>project completed</p>
+        </div>
+
+        <div class="box">
+          <h3>790+</h3>
+          <p>satiesfied clients</p>
+        </div>
+
+        <div class="box">
+          <h3>100+</h3>
+          <p>active developers</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+      <h1 class="heading">产品介绍</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/FACode.png" alt="" />
+          <h3>涡轮发动机润滑油</h3>
+          <p>
+            对发动机的轴承、附件齿轮箱等部件提供润滑、散热、清洁、防腐保护作用，同时还能够对发动机的振动起到阻尼作用。该系列产品具有良好的高热稳定性、高性能等级以及弹性密封件相容性。使得发动机能够更加安全、高效地运行。
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/Phone.png" alt="" />
+          <h3>航空液压油</h3>
+          <p>
+            飞机和直升机液压系统实现能量传递、转换和控制的液压介质。该系列产品具有良好的磨损保护性能，极佳的稳定性和使用寿命。
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/AIndML.png" alt="" />
+          <h3>特殊应用润滑油和脂</h3>
+          <p>
+            针对特殊工况开发的，通过对特殊工况的细致分析量身定制针对性保护的润滑材料。与普通润滑油和润滑脂相比能够在苛刻的工况中有效保护零件。
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/Lock.png" alt="" />
+          <h3>钢帘线拉拔液</h3>
+          <p>
+            能够快速吸附在在钢帘线表面形成优异的润滑膜，起到良好的润滑作用，极大地延长模具的使用寿命，减少钢帘线表面的镀层磨损，残留少，不影响钢帘线与橡胶的结合。
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/Lock.png" alt="" />
+          <h3>冷冻压缩机油</h3>
+          <p>
+            高度精制的基础油复合精选的添加剂，经特殊加工工艺生产、深度脱蜡处理而成，尤其适用于超低温环境。与所有的传统型制冷剂相接触时都能保证其稳定性及抗老化性。
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/Lock.png" alt="" />
+          <h3>风电齿轮油</h3>
+          <p>
+            对滚动轴承具有优异的抗损性能，在实验过程中轴承磨损率极低。同时，该系列产品具有良好的橡胶兼容性，能够更好保护设备元件，从而增加设备使用寿命，增强设备的稳定性和生产效率。
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/Lock.png" alt="" />
+          <h3>防火型液压油</h3>
+          <p>
+            良好的抗磨损性能，能够保护设备、降低维护费用；
+            极宽的工作温度范围，具备良好的剪切稳定性；
+            优秀的氧化及老化稳定性；
+            优秀的防腐蚀性能（钢铁及有色金属）。
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/Lock.png" alt="" />
+          <h3>过充保护剂</h3>
+          <p>
+            用来提升电池安全性能的添加剂，主要用于锂离子电池和其他类型的可充电电池。主要功能是电池在充电达到额定电压时，可以通过氧化还原反应，保护电池材料，从而延长电池寿命，减少安全隐患。
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/Lock.png" alt="" />
+          <h3>浸没式冷却液</h3>
+          <p>
+            应用于数据中心、超级计算机和高性能电子设备冷却的专用液体。由于出色的热传导能力、电绝缘性、生物可降解性、低蒸发率，浸没式冷却液能够比传统的空气冷却方法更有效地从设备中带走热量，提高计算机工作效率。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- projects section starts  -->
+
+    <section class="projects" id="projects">
+      <h1 class="heading">成功案例</h1>
+
+      <div class="box-container">
+        <a href="images/CryptoMining.png" class="box">
+          <div class="image">
+            <img src="images/CryptoMining.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>HashPioneer</h3>
+              <p>crypto mining platform</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        
+
+        <a href="images/ChatbotE.png" class="box">
+          <div class="image">
+            <img src="images/ChatbotE.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Educator</h3>
+              <p>Chatbot for education</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        
+
+        <a href="images/BankingS.png" class="box">
+          <div class="image">
+            <img src="images/BankingS.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>NexaBank</h3>
+              <p>e-Banking Software</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- projects section ends -->
+
+    <!-- reviews section starts  -->
+
+    <section class="reviews">
+      <h1 class="heading">创始人介绍</h1>
+
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p>
+              公司董事长，首席科学家，全球注册润滑专家，2023年上海市领军人才，中科院最高海外人才“中科院BR计划A类”；ASTM技术委员会成员，曾参与国家润滑油测试标准的制定和修订；曾任全球化工前50的龙头企业北美大区研发部门总监；是全球领先的精细化工材料、润滑防护材料配方研发和产品开发的专家。现任公司董事长、首席科学家，全面负责产品相关的技术研发工作。
+            </p>
+            <div class="user">
+              <img src="images/pic-1.png" alt="" />
+              <div class="info">
+                <h3>Ray博士</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              现任公司CEO，曾在Rolls-Royce（全球三大航空发动机制造商之一）从事生产运营管理、供应链管理等相关工作，担任中国区供应链总监；曾任麦肯锡中国资深专家顾问，为各工业类客户提供运营和供应链相关的咨询服务；曾任隆达股份（SH.688231）市场和销售副总裁，负责业务拓展、客户关系维护等工作，在航天航空市场具有丰富的客户资源。现任公司CEO，全面负责公司的经营管理和市场营销工作。
+            </p>
+            <div class="user">
+              <img src="images/pic-2.png" alt="" />
+              <div class="info">
+                <h3>王曹旭</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- reviews section ends -->
+
+    <!-- pricing section starts  
+
+    <section class="pricing" id="pricing">
+      <h1 class="heading">our pricing</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-home"></i>
+          <h3>basic plan</h3>
+          <div class="price"><span>$</span>250<span>/mo</span></div>
+          <div class="list">
+            <p>Standard development tools</p>
+            <p>Monthly site updates</p>
+            <p>Basic security alerts</p>
+            <p>Email support</p>
+            <p>Analytics dashboard access</p>
+          </div>
+          <a href="#" class="btn">choose plan</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-building"></i>
+          <h3>premium plan</h3>
+          <div class="price"><span>$</span>650<span>/mo</span></div>
+          <div class="list">
+            <p>Custom development hours</p>
+            <p>Enhanced security reports</p>
+            <p>Priority support access</p>
+            <p>Advanced AI tools</p>
+            <p>Bi-weekly optimizations</p>
+          </div>
+          <a href="#" class="btn">choose plan</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-city"></i>
+          <h3>ultimate plan</h3>
+          <div class="price"><span>$</span>1250<span>/mo</span></div>
+          <div class="list">
+            <p>Dedicated development team</p>
+            <p>Comprehensive security suite</p>
+            <p>24/7 priority support</p>
+            <p>Monthly strategic sessions</p>
+            <p>Custom AI development</p>
+
+          </div>
+          <a href="#" class="btn">choose plan</a>
+        </div>
+      </div>
+    </section>
+
+     pricing section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">联系我们</h1>
+
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106598.4289583495!2d-111.92810105000001!3d33.3919224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0898a6aa80e3%3A0xa2dd4aad392cb41f!2sTempe%2C%20AZ!5e0!3m2!1sen!2sus!4v1706301453151!5m2!1sen!2sus"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <form action="">
+          <h3>联系我们</h3>
+          <input type="text" placeholder="姓名" class="box" />
+          <input type="email" placeholder="邮箱" class="box" />
+          <input type="number" placeholder="电话" class="box" />
+          <textarea
+            name=""
+            placeholder="内容"
+            class="box"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="提交" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="links">
+        <a class="btn" href="#home">主页</a>
+        <a class="btn" href="#about">公司介绍</a>
+        <a class="btn" href="#services">产品介绍</a>
+        <a class="btn" href="#projects">项目</a>
+        <a class="btn" href="#pricing">价格</a>
+        <a class="btn" href="#contact">联系我们</a>
+      </div>
+
+      <div class="credit">
+          润威新材料科技（上海）有限公司｜021-6979-3052｜wangcx@lube-v.com.cn
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".projects .box-container"));
+    </script>
+  </body>
+</html>
